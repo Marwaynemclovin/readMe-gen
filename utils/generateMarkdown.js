@@ -1,42 +1,46 @@
 function generateMarkdown(data) {
-  return ` # ${data.title}
-  
-  ## Description
-  ## Table Of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [License](#license)
-  * [Questions](#questions)
-  * [Screenshot](#screenshot)
-  * [Video](#video)
-  
-  The motivation for this project was ${data.descriptionMotivation}. 
-    
-  The problem which needed to be solved was ${data.descriptionSolve}.
-  
-  From this project I learnt ${data.descriptionLearn}.
-  
-  ## Installation
-  To install this application ${data.installation}.
-  
-  ## Usage
-  The intended use of this application is ${data.usage}.
-  
-  
-  ## Credits
-  The development person/team responsible for this is ${data.credits}.
-  
-  ## Licence 
-  This project has a ${data.license}.
-  ## Questions 
-  If there are any questions about the project feel free to email me at:  
-  - Email: ${data.email}
-  
-  ## Screenshot
-  
-  ## Video 
-  `;
+  return `
+# ${data.title}
+
+## Description
+
+${data.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## License
+
+![License Badge](https://img.shields.io/badge/license-${data.license}-green)
+
+This application is covered by the ${data.license} license.
+
+## Contributing
+
+${data.contributing}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+`;
 }
 
 module.exports = generateMarkdown;

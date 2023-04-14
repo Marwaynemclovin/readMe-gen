@@ -1,9 +1,9 @@
 
-# qwe
+# readMe Generator
 
 ## Description
 
-qwe
+A simple readMe gen
 
 ## Table of Contents
 
@@ -16,11 +16,11 @@ qwe
 
 ## Installation
 
-qwe
+npm i, then node index.js
 
 ## Usage
 
-qwe
+To be used as a readMe gen
 
 ## License
 
@@ -30,12 +30,12 @@ This application is covered by the MIT license.
 
 ## Contributing
 
-qwe
+n/a
 
 ## Tests
 
-qwevwq
+n/a
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at asdvq. You can find more of my work at [vwq](https://github.com/vwq/).
+If you have any questions about the repo, open an issue or contact me directly at marwin.m@hotmail.com. You can find more of my work at [marwaynemclovin](https://github.com/marwaynemclovin/).

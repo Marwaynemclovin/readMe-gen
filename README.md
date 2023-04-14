@@ -7,9 +7,7 @@ The ReadMe Generator is a command-line application that generates a professional
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [License](#license)
+- [Walthough Video](#walkthrough-video)
 - [Questions](#questions)
 
 ## Installation
@@ -37,6 +35,9 @@ The ReadMe Generator was built using the following technologies:
 
 Node.js
 Inquirer.js
+
+## Walthrough Video
+A link to the video is here: https://drive.google.com/file/d/19otJbSIQhL-T4bKQfCnvyBw2JZG_-CAc/view
 
 ## License
 MIT License
